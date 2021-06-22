@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;   
+    position: absolute;
+    box-sizing: border-box; 
+    width: 1024px;
+    height: 1024px;
+}
+
+#descuentos {
+    background-color: #1CD1B0;
+    font-weight: 4000;
+    font-size: 15;
+    width: 1024px;
+    height: 38px;
+    font-size: 15px;
+    padding: 10px 903px 10px 10px;
+}
+
+#encabezado {
+    background-color:#00669F;
+    font-size: 40px;
+    width: 1024px;
+    height: 101px;
+    position: fixed; 
+    z-index: 200; 
+    top:38px;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 27px 868px 27px 27px;
+}
+
+main {
+    position: relative;
+    height: 529px;
+    width: 960px;
+    bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*corazones*/
+
+#corazon1 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    z-index: 200;
+    left: 53px;
+    top: 307px;
+}
+
+#corazon2 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    z-index: 200;
+    left: 383px;
+    top: 307px;
+}
+
+#corazon3 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    z-index: 200;
+    left: 713px;
+    top: 307px;
+}
+
+
+
+/* Sección Batman 1 */
+
+
+#fotoBatman1 {
+    width: 122px;
+    height: 120px;
+    top: 421px;
+    bottom: 485px;
+    right: 782px;
+    left: 122px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+
+#bannerBatman1 {
+    width: 300px;
+    height: 193px;
+    top: 290px;
+    bottom: 203px;
+    right: 692px;
+    left: 32px;
+}
+
+#corazon1 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    z-index: 200;
+    left: 53px;
+    top: 307px;
+}
+
+#fondo1 {
+    width: 300px;
+    height: 336px;
+    bottom: 203px;
+    right: 692px;
+    left: 32px;
+
+}
+
+.contenidoBatman1 h2 {
+    width: 122px;
+    height: 35px;
+    top: 557px;
+    bottom: 432px;
+    left: 121px;
+    right: 781px;
+    
+}
+
+.contenidoBatman1 p {
+    width: 267px;
+    height: 113px;
+    top: 602px;
+    bottom: 309px;
+    left: 48px;
+    right: 709px;
+    text-align: center;
+    
+
+}
+
+.botonBatman1 {
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    top: 752px;
+    left: 117px;
+
+}
+
+/* Sección Harley */
+
+#fotoHarley {
+    width: 122px;
+    height: 120px;
+    top: 421px;
+    bottom: 485px;
+    right: 451px;
+    left: 451px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+#bannerHarley {
+    width: 300px;
+    height: 193px;
+    top: 290px;
+    bottom: 203px;
+    right: 362px;
+    left: 362px;
+}
+
+#fondo2 {
+    width: 300px;
+    height: 336px;
+    bottom: 203px;
+    right: 362px;
+    left: 362px;
+
+}
+
+.contenidoHarley h2 {
+    width: 171px;
+    height: 35px;
+    top: 557px;
+    bottom: 432px;
+    left: 427px;
+    right: 426px;
+}
+
+.contenidoHarley p {
+    width: 267px;
+    height: 113px;
+    top: 602px;
+    bottom: 309px;
+    left: 378px;
+    right: 379px;
+    text-align: center;
+}
+
+.botonHarley {
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    left: 447px;
+    top: 754px;
+}
+
+/* Sección Batman2 */
+
+#fotoBatman2 {
+    width: 122px;
+    height: 120px;
+    top: 421px;
+    bottom: 485px;
+    right: 121px;
+    left: 781px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+#bannerBatman2 {
+    width: 300px;
+    height: 193px;
+    top: 290px;
+    bottom: 203px;
+    right: 32px;
+    left: 692px;
+}
+
+#fondo3 {
+    width: 300px;
+    height: 336px;
+    bottom: 203px;
+    right: 32px;
+    left: 692px;
+
+}
+
+.contenidoBatman2 h2 {
+    width: 122px;
+    height: 35px;
+    top: 557px;
+    bottom: 432px;
+    left: 781px;
+    right: 121px;
+}
+
+.contenidoBatman2 p {
+    width: 267px;
+    height: 113px;
+    top: 602px;
+    bottom: 309px;
+    left: 709px;
+    right: 48px;
+    text-align: center;
+}
+
+.botonBatman2 {
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    left: 777px;
+    top: 755px;
+}
+
+/* Pie de pagina */
+
+.pieDePagina p {
+    width: 1024px;
+    height: 51px;
+    top: 350px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px 671px 16px 16px;
+}
